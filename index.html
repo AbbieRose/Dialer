@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Phone App</title>
+        <link rel="stylesheet" href="phone.css">
+    </head>
+    <body>
+        <div id="tab_bar">
+            <button class="tab_button" id="dialer">Dialer</button>
+            <button class="tab_button" id="contact_list">Contact List</button>
+            <button class="tab_button" id="add_contact">Add Contact</button>
+        </div>
+        <div id="content">
+            <div id="dialer_content">
+                <h1>Dialer</h1>
+                <br>
+                <form>
+                    <input id="number_dialed" type="text" name="number" readonly>
+                </form>
+                <br>
+                <div class="container" id="phone_pad">
+                    <button class="grid-item" id ="one">1</button>
+                    <button class="grid-item" id ="two">2</button>
+                    <button class="grid-item" id ="three">3</button>
+                    <button class="grid-item" id ="four">4</button>
+                    <button class="grid-item" id ="five">5</button>
+                    <button class="grid-item" id ="six">6</button>
+                    <button class="grid-item" id ="seven">7</button>
+                    <button class="grid-item" id ="eight">8</button>
+                    <button class="grid-item" id ="nine">9</button>
+                    <button class="grid-item" id ="star">*</button>
+                    <button class="grid-item" id ="zero">0</button>
+                    <button class="grid-item" id ="pound">#</button>
+                    <button class="action-button" id="dial">Dial</button>
+                    <button class="action-button" id="clear">Clear</button>
+                </div>
+            </div>
+            <div id="contact_content">
+                <h1>Contacts List</h1>
+                <div class="contacts_list">
+                    <div>Hugo Lloris</div>
+                    <div>Kieran Trippier</div>
+                    <div>Toby Alderweireld</div>
+                    <div>Jan Vertonghen</div>
+                    <div>Ben Davies</div>
+                    <div>Eric Dier</div>
+                    <div>Mousa Dembele</div>
+                    <div>Christian Eriksen</div>
+                    <div>Dele Alli</div>
+                    <div>Son Heung-Min</div>
+                    <div>Harry Kane</div>
+                </div>
+            </div>
+            <div id="add_content">
+                <h1>Add Contact</h1>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="phone.js"></script>
+    </body>
+</html>

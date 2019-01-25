@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap:wrap;
+    height:300px;
+    width: 250px;
+}
+
+.grid-item {
+    height: 50px;
+    flex-basis:calc(100% / 3);
+    padding: 10px;
+}
+
+.action-button {
+    height: 50px;
+    flex-basis:calc(100% / 2);
+    padding: 10px;
+}
+
+#number_dialed {
+    width: 250px;
+}
