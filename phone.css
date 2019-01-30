@@ -9,6 +9,7 @@
     height: 50px;
     flex-basis:calc(100% / 3);
     padding: 10px;
+    color:navy;
 }
 
 .action-button {
@@ -19,4 +20,53 @@
 
 #number_dialed {
     width: 250px;
+}
+
+#tab_bar {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #111F53;
+}
+
+#tab_bar button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    width: 250px;
+    color: #ccc;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#tab_bar button:hover {
+    background-color: #ddd;
+}
+
+#tab_bar button.active {
+    background-color: #ccc;
+}
+
+#tab_button {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contacts_list div {
+    display: inline-block;
+    background-color: #111F53; 
+    color: #ccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    margin: 5px;
+}
+
+.add_form {
+    color: #111F53;
 }

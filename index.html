@@ -10,8 +10,8 @@
             <button class="tab_button" id="add_contact">Add Contact</button>
         </div>
         <div id="content">
-            <div id="dialer_content">
-                <h1>Dialer</h1>
+            <div id="dialer_content" align="center">
+                <h2 style="color:navy;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Dialer</h2>
                 <br>
                 <form>
                     <input id="number_dialed" type="text" name="number" readonly>
@@ -34,8 +34,8 @@
                     <button class="action-button" id="clear">Clear</button>
                 </div>
             </div>
-            <div id="contact_content">
-                <h1>Contacts List</h1>
+            <div id="contact_content" align="center">
+                <h2 style="color:navy;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Contacts List</h2>
                 <div class="contacts_list">
                     <div>Hugo Lloris</div>
                     <div>Kieran Trippier</div>
@@ -50,8 +50,24 @@
                     <div>Harry Kane</div>
                 </div>
             </div>
-            <div id="add_content">
-                <h1>Add Contact</h1>
+            <div id="add_content" align="center">
+                <h2 align="center" style="color:navy;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Add Contact</h2>
+                <form class="add_form">
+                    <label for="name">Name</label><br>
+                    <input id="name" placeholder="Mauricio Pochettino"><br>
+                    <br>
+                    <label for="number">Phone Number</label><br>
+                    <input id="number" placeholder="123-456-7890"><br>
+                    <br>
+                    <label for="email">Email address</label><br>
+                    <input id="email" placeholder="poch@spurs.com"><br>
+                </form>
+                <div id="buttons">
+                    <button class="add-action-button" id="add">Add</button>
+                    <button class="add-action-button" id="clear-contact">Clear</button>
+                </div>
+                <br>
+                <img src="spurs-blue-no-text-300x300.png" alt="spurs logo" height="75" width="75">
             </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

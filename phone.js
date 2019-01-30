@@ -34,3 +34,15 @@ $(".grid-item").click(function() {
 $("#clear").click(function() {
     $('input[name="number"]').val("");
 });
+
+$("#add").click(function() {
+    $('input[name="name"]').text("");
+    $('input[name="number"]').val("");
+    $('input[name="email"]').val("");
+});
+
+$("#clear-contact").click(function() {
+    $('input[name="name"]').val("");
+    $('input[name="number"]').val("");
+    $('input[name="email"]').val("");
+});
